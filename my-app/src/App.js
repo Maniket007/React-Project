@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
+
+//When someone wnats to fetch the data then the data is stored somewhere which is server...
+//we have four types of request which is bascially used to fetch the data from the server..
+//    1.C-Crede
+//    2.R-Read
+//    3.U-Update
+//    4.D-Delete
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn ReactLearn ReactLearn ReactLearn ReactLearn ReactLearn ReactLearn React
-        </a>
-      </header>
+    <div className="app">
+        <h1>Fetch Data</h1>
     </div>
   );
 }
